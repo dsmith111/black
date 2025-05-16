@@ -1,7 +1,7 @@
-def abc (): 
-    return ["hello", "world", 
-            "!"] 
- 
-print(   "Incorrect formatting"     
-) 
-                                                                                                                                                                                                                                                                                                
+def abc ():
+    return ["hello", "world",
+            "!"]
+
+print(   "Incorrect formatting"    
+)
+                                                                                                                                                                                                                                                                                               
