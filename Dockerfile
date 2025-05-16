@@ -13,4 +13,4 @@ COPY . .
 
 RUN pip install -e ".[d]"
 
-CMD ["pytest", "-q"]                                                                     
+CMD ["pytest", "-q"]                                                                      
