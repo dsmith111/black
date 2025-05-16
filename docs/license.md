@@ -1,10 +1,10 @@
----
-orphan: true
----
-
-# License
-
-```{include} ../LICENSE
-
-```
-                                                                                                                                                                                                                                                                                               
+--- 
+orphan: true 
+--- 
+ 
+# License 
+ 
+```{include} ../LICENSE 
+ 
+``` 
+                                                                                                                                                                                                                                                                                                
