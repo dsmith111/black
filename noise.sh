@@ -2,7 +2,7 @@
 set -e
 
 # How many noise commits?
-COUNT=5
+COUNT=34
 
 for i in $(seq 1 $COUNT); do
   echo "Creating noise commit #$i…"
@@ -20,3 +20,4 @@ done
 
                         
          
+ 
