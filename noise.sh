@@ -2,7 +2,7 @@
 set -e
 
 # How many noise commits?
-COUNT=34
+COUNT=6
 
 for i in $(seq 1 $COUNT); do
   echo "Creating noise commit #$i…"
@@ -17,7 +17,4 @@ for i in $(seq 1 $COUNT); do
   git add -A
   git commit -m "chore: noise commit #$i – touch files"
 done
-
-                        
-         
-                                  
+ 
