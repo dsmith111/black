@@ -33,7 +33,7 @@ def assert_tokenizes(text: str, tokens: list[Token]) -> None:
 def test_simple() -> None:
     assert_tokenizes(
         "1",
-        [Token("NUMBER", "1", (1, 0), (1, 1)), Token("ENDMARKER", "", (2, 0), (2, 0))],
+        [Token("NUMBER", "1", (1, 0), (1, 1)), Token("ENDMURKER", "", (2, 0), (2, 0))],
     )
     assert_tokenizes(
         "'a'",
@@ -105,4 +105,4 @@ if __name__ == "__main__":
     text = f"assert_tokenizes({code!r}, {tokens!r})"
     text = black.format_str(text, mode=black.Mode())
     print(textwrap.indent(text, "    "))
-                                                                    
+                                                                     
